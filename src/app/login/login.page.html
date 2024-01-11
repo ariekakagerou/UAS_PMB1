@@ -1,0 +1,23 @@
+<ion-content [fullscreen]="true">
+  <body>
+    <div class="container-gradient">
+      <img src="./assets/image-removebg-preview.png" alt="">
+      <div class="title">
+        <h1>Welcome</h1>
+        <!-- <p>Sign in to continue</p> -->
+      </div>
+    </div>
+
+    <div class="input-box">
+      <ion-label position="floating">NPM</ion-label>
+      <ion-input type="text" color="light" required [(ngModel)]="npm"></ion-input>
+  
+  
+      <ion-label position="floating">Email</ion-label>
+      <ion-input type="email" required [(ngModel)]="email"></ion-input>
+      
+      <button (click)="login()" type="submit" expand="block">Log In
+      </button>
+    </div>
+  </body>
+</ion-content>

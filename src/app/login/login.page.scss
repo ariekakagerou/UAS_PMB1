@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.container-gradient{
+    // background-color: #27ae60;
+    background: #148b46;
+    background: linear-gradient(345deg,#148b46 0%, #27ae60 80%);
+    width: 100vw;
+    height: 40vh;
+    border-radius: 0 0 15% 15%;
+}
+
+.container-gradient img{
+    margin: 55px 0 0 35px;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: #333 8px 8px 3px 0px;
+}
+
+.container-gradient .title{
+    margin: 20px 0 0 35px;
+}
+
+.container-gradient .title h1{
+    font-weight: bold;
+}
+
+.input-box{
+    background-color: #333;  
+    padding: 25px;
+    width: 90vw;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 15%;
+    left: 5vw;
+}
+
+.input-box ion-label{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+
+.input-box button{
+    padding: 10px;
+    width: 100%;
+    background-color: #27ae60;
+}

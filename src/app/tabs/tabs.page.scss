@@ -1,0 +1,24 @@
+
+ion-tab-bar{
+    // border: 2px #000000 solid;
+    // border-radius: 3.5vh;
+    // margin-left: auto;
+    // margin-right: auto;
+    // margin-bottom: 3vh;
+    // width: 90%;
+    // height: 8vh;
+    background-color: white;
+}
+
+ion-tab-button{
+    background-color: white;
+}
+
+ion-tab-button:hover{
+    color: #27ae60;
+}
+
+ion-icon,ion-label{
+    display: block;
+    color: #27ae60;
+}

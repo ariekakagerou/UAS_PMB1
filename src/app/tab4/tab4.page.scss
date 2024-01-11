@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f1f1f1;
+    color: #000;
+    min-height: 100vh;
+    overflow-y: auto;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.navbar{
+    background-color: #27ae60;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.navbar h1{
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+@media screen and (mix-widht: 768px){
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar h1{
+        margin-bottom: 15px;
+    }
+}
+
+.table{
+    margin: 20px auto;
+    width: 80vw;
+}
+
+ion-content {
+    --background: url('/assets/putih.png') center/cover no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items:center;
+  }
+  ion-searchbar{
+    background-color: white;
+  }
+
+  ion-Input{
+    color: black;
+  }
+  ion-searchbar {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    --ion-background-color: white;
+  }
+  
+  /* Styling for the search input */
+  ion-searchbar .searchbar-input {
+    background-color: #f7f7f7; /* Warna latar belakang */
+    border-radius: 8px; /* Sudut border */
+    padding: 10px; /* Padding */
+    margin-bottom: 20px; /* Jarak bawah */
+  }
+  ion-list {
+    --background: white; /* Ubah latar belakang ion-list menjadi putih */
+  }
+  
