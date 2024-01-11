@@ -1,0 +1,8 @@
+{
+  "name": "program_uas",
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
+  "type": "angular"
+}
